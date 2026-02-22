@@ -125,6 +125,7 @@ p{line-height:1.7;color:var(--mut)}
  padding:30px;
  border-radius:25px;
  transition:.4s;
+ cursor:pointer;
 }
 .card:hover{
  transform:translateY(-12px);
@@ -234,12 +235,22 @@ footer{
 <section id="services" class="reveal">
  <h2>Servizi</h2>
  <div class="grid">
-  <div class="card">Siti web professionali</div>
+  <div class="card" onclick="openModal('Siti Web Professionali')">💻 Creazione Siti Web</div>
   <div class="card">Lezioni di programmazione</div>
   <div class="card">Lezioni Arduino</div>
   <div class="card">Creazione server</div>
   <div class="card">Aiuto scolastico gratuito</div>
   <div class="card">Vendita idee & consulenza</div>
+ </div>
+ <br>
+ <h3>Opzioni Creazione Siti Web</h3>
+ <div class="grid">
+  <div class="card" onclick="openModal('Pacchetto Base 10€\nInclude: menù del negozio, numeri di telefono per prenotare, e altre funzionalità opzionali')">
+    💰 Pacchetto Base - 10€
+  </div>
+  <div class="card" onclick="openModal('Pacchetto Premium 25€\nInclude tutto del pacchetto Base + notifiche automatiche, ordinazioni online dirette, e altre funzionalità avanzate')">
+    🚀 Pacchetto Premium - 25€
+  </div>
  </div>
 </section>
 
