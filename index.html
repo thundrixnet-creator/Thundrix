@@ -197,7 +197,7 @@ footer{
   <a href="#about">Chi sono</a>
   <a href="#skills">Competenze</a>
   <a href="#services">Servizi</a>
-  <a href="#websites">Siti Web</a>
+  <a href="venditasiti.html">Siti Web</a>
   <a href="#projects">Progetti</a>
   <a href="#contact">Contatti</a>
  </div>
@@ -240,157 +240,51 @@ footer{
  </div>
 </section>
 
-<!-- NUOVA SEZIONE SOLO SITI WEB (COLORI NON CAMBIATI) -->
+ <section id="final-cta" class="reveal" style="padding:80px 10%; text-align:center;">
 
-<section id="websites" class="reveal">
- <h2 style="text-align:center; color:#ffdd55; text-shadow:0 0 15px #ffdd55, 0 0 25px #ffdd55;">Siti Web da Acquistare</h2>
+  <div style="
+    background:linear-gradient(145deg,#1a0033,#2a004d);
+    border-radius:30px;
+    padding:45px 30px;
+    box-shadow:0 0 60px rgba(255,77,109,.35);
+    border:1px solid rgba(255,77,109,.25);
+    max-width:1000px;
+    margin:auto;
+  ">
 
- <div class="grid" style="margin-top:40px; gap:40px;">
-  <!-- BASE -->
-  <div class="card" style="background:linear-gradient(145deg,#ff6f61,#ffb347); border-radius:35px; padding:30px; position:relative; box-shadow:0 0 25px #ffb347; transition:0.4s; cursor:pointer;"
-       onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 50px #ffb347';"
-       onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 25px #ffb347';">
-    <h3 style="font-size:1.8rem; color:#fff; text-shadow:0 0 10px #fff;">💰 Pacchetto Base</h3>
-    <p style="color:#fff; font-weight:700;">14,99€</p>
-    <ul style="color:#fff; text-align:left; margin-top:15px;">
-      <li>Menù del negozio</li>
-      <li>Numeri per prenotazioni</li>
-      <li>QR Code personalizzato incluso</li>
-      <li>Hosting tramite GitHub (es: nomedelpunto.github.io)</li>
-      <li>Modifiche future: 1€/modifica</li>
-    </ul>
-    <a href="#contact" class="btn" style="margin-top:20px; border-radius:40px;">Acquista Base</a>
-  </div>
+    <h2 style="
+      font-size:2.2rem;
+      background:linear-gradient(90deg,#ff4d6d,#ffb84d);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+    ">
+      Il tuo business è pronto a fare il salto?
+    </h2>
 
-  <!-- PREMIUM -->
-  <div class="card" style="background:linear-gradient(145deg,#5aa9ff,#8b5cff); border-radius:35px; padding:30px; position:relative; box-shadow:0 0 30px #8b5cff; transition:0.4s; cursor:pointer;"
-       onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 60px #8b5cff';"
-       onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 30px #8b5cff';">
-    <div style="position:absolute; top:-15px; right:-15px; background:#ff0; color:#000; font-weight:900; padding:8px 18px; border-radius:50px; text-shadow:0 0 5px #000; transform:rotate(10deg);">PIÙ SCELTO</div>
-    <h3 style="font-size:1.8rem; color:#fff; text-shadow:0 0 10px #fff;">🚀 Pacchetto Premium</h3>
-    <p style="color:#fff; font-weight:700;">29,99€</p>
-    <ul style="color:#fff; text-align:left; margin-top:15px;">
-      <li>Tutto del Base</li>
-      <li>Notifiche automatiche</li>
-      <li>Ordinazioni online dirette</li>
-      <li>QR Code incluso</li>
-      <li>Dominio personalizzato (es: www.nomedelpunto.it)</li>
-      <li>Modifiche future: 1€/modifica</li>
-    </ul>
-    <a href="#contact" class="btn" style="margin-top:20px; border-radius:40px;">Acquista Premium</a>
-  </div>
- </div>
+    <p style="
+      margin-top:15px;
+      font-size:1rem;
+      color:var(--mut);
+      max-width:650px;
+      margin-left:auto;
+      margin-right:auto;
+    ">
+      Porta la tua attività online con un sito moderno,
+      veloce e progettato per ottenere clienti.
+    </p>
 
- <!-- TABELLA COMPARATIVA -->
- <div style="margin-top:60px; overflow-x:auto; border-radius:25px; box-shadow:0 0 40px rgba(255,77,109,.5);">
-  <table style="width:100%; border-collapse:separate; border-spacing:0; border-radius:25px; overflow:hidden; font-weight:700; text-align:center; color:#fff;">
-    <thead>
-      <tr style="background:linear-gradient(90deg,#ff6f61,#ffb347); color:#000;">
-        <th style="padding:15px; font-size:1.2rem;">Funzione</th>
-        <th style="padding:15px; font-size:1.2rem;">Base</th>
-        <th style="padding:15px; font-size:1.2rem; background:linear-gradient(90deg,#5aa9ff,#8b5cff); color:#fff;">Premium</th>
-      </tr>
-    </thead>
-    <tbody style="background:linear-gradient(180deg,#0f001f,#1a0033);">
-      <tr>
-        <td style="padding:12px;">Menù del negozio</td>
-        <td>✅</td>
-        <td>✅</td>
-      </tr>
-      <tr>
-        <td style="padding:12px;">Numeri per prenotazioni</td>
-        <td>✅</td>
-        <td>✅</td>
-      </tr>
-      <tr>
-        <td style="padding:12px;">QR Code personalizzato</td>
-        <td>✅</td>
-        <td>✅</td>
-      </tr>
-      <tr>
-        <td style="padding:12px;">Hosting/Dominio</td>
-        <td>GitHub (nomedelpunto.github.io)</td>
-        <td>Dominio personalizzato (www.nomedelpunto.it)</td>
-      </tr>
-      <tr>
-        <td style="padding:12px;">Notifiche automatiche</td>
-        <td>❌</td>
-        <td>✅</td>
-      </tr>
-      <tr>
-        <td style="padding:12px;">Ordinazioni online</td>
-        <td>❌</td>
-        <td>✅</td>
-      </tr>
-      <tr>
-        <td style="padding:12px;">Modifiche future</td>
-        <td>1€/modifica</td>
-        <td>1€/modifica</td>
-      </tr>
-    </tbody>
-  </table>
- </div>
-</section>
-<section id="why" class="reveal">
-  <h2 style="text-align:center;">Perché scegliere Thundrix</h2>
-
-  <div class="grid" style="margin-top:60px;">
-
-    <div class="card" style="text-align:center; border:1px solid rgba(255,77,109,.3); box-shadow:0 0 30px rgba(255,77,109,.3);">
-      <div style="font-size:2.5rem;">⚡</div>
-      <h3 style="margin-top:15px;">Consegna Rapida</h3>
-      <p style="margin-top:10px;">
-        Siti pronti in 48-72 ore. Nessuna attesa infinita.
-        Velocità e precisione.
-      </p>
-    </div>
-
-    <div class="card" style="text-align:center; border:1px solid rgba(255,184,77,.3); box-shadow:0 0 30px rgba(255,184,77,.3);">
-      <div style="font-size:2.5rem;">📱</div>
-      <h3 style="margin-top:15px;">100% Responsive</h3>
-      <p style="margin-top:10px;">
-        Perfetto su smartphone, tablet e PC.
-        Design moderno e fluido.
-      </p>
-    </div>
-
-    <div class="card" style="text-align:center; border:1px solid rgba(140,92,255,.3); box-shadow:0 0 30px rgba(140,92,255,.3);">
-      <div style="font-size:2.5rem;">🚀</div>
-      <h3 style="margin-top:15px;">Prestazioni Ottimizzate</h3>
-      <p style="margin-top:10px;">
-        Siti leggeri, veloci e pronti per Google.
-        Ottimizzazione tecnica inclusa.
-      </p>
-    </div>
-
-    <div class="card" style="text-align:center; border:1px solid rgba(0,255,200,.3); box-shadow:0 0 30px rgba(0,255,200,.3);">
-      <div style="font-size:2.5rem;">🔒</div>
-      <h3 style="margin-top:15px;">Sicurezza & Affidabilità</h3>
-      <p style="margin-top:10px;">
-        Hosting stabile, configurazione sicura
-        e struttura solida.
-      </p>
-    </div>
-
-    <div class="card" style="text-align:center; border:1px solid rgba(255,77,109,.3); box-shadow:0 0 30px rgba(255,77,109,.3);">
-      <div style="font-size:2.5rem;">🧠</div>
-      <h3 style="margin-top:15px;">Supporto Diretto</h3>
-      <p style="margin-top:10px;">
-        Parli direttamente con me.
-        Nessun intermediario.
-      </p>
-    </div>
-
-    <div class="card" style="text-align:center; border:1px solid rgba(255,184,77,.3); box-shadow:0 0 30px rgba(255,184,77,.3);">
-      <div style="font-size:2.5rem;">🎯</div>
-      <h3 style="margin-top:15px;">Orientato ai Risultati</h3>
-      <p style="margin-top:10px;">
-        L’obiettivo non è solo avere un sito,
-        ma ottenere clienti.
-      </p>
-    </div>
+    <a href="venditasiti.html" class="btn" style="
+      margin-top:30px;
+      font-size:1rem;
+      padding:14px 40px;
+      border-radius:40px;
+      box-shadow:0 0 40px rgba(255,77,109,.6);
+    ">
+      🚀 Scopri i pacchetti
+    </a>
 
   </div>
+
 </section>
 <section id="projects" class="reveal">
  <h2>Progetti</h2>
